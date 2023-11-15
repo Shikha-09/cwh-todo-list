@@ -24,5 +24,6 @@ export class TodoItemComponent implements OnInit {
 
   onCheckBoxClicked(todo:Todo){
     this.todoCheckbox.emit(todo);
+    console.log("test git")
   }
 }
